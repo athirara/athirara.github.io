@@ -1,0 +1,40 @@
+.contact_us_style {
+
+/*color: #fff;*/
+margin-left: 850px;
+position: absolute;
+margin-top : 100px;
+font-size: 20px;
+
+/*righ*/
+   }
+.contact_us_style2 {
+
+   /*color: #fff;*/
+   margin-left: 850px;
+   position: absolute;
+   margin-top : 130px;
+   font-size: 15px;
+   /*righ*/
+      }
+.contact_us_style3 {
+
+         /*color: #fff;*/
+         margin-left: 850px;
+         position: absolute;
+         margin-top : 150px;
+         font-size: 15px;
+         /*righ*/
+            }
+.contact_us_style4{
+   margin-left: 850px;
+   position: absolute;
+   margin-top : 200px;
+   font-size: 20px;
+}
+.contact_us_style5{
+   margin-left: 850px;
+   position: absolute;
+   margin-top : 230px;
+   font-size: 15px;
+}
