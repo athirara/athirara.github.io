@@ -8,7 +8,7 @@
  */
 .owl-carousel {
   display: none;
-  width: 100%;
+  /*width: 100%;*/
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
@@ -37,7 +37,7 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     -webkit-transform-style: preserve-3d; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
@@ -137,7 +137,7 @@
 .owl-carousel .owl-video-play-icon {
   position: absolute;
   height: 80px;
-  width: 80px;
+  /*width: 80px;*/
   left: 50%;
   top: 50%;
   margin-left: -40px;
@@ -170,4 +170,5 @@
   position: relative;
   z-index: 1;
   height: 100%;
-  width: 100%; }
+  /*width: 100%; }*/
+}

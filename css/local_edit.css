@@ -39,13 +39,53 @@ font-size: 20px;
    font-size: 15px;
 }
 
+/*Price section */
 .prices_advisor{
    padding:22px 0 20px 0;
    /*margin-bottom:10px;*/
    /*left : 500;*/
 }
 .prices_enterprise{
-   padding:51px 0 20px 0;
+   padding:72px 0 20px 0;
    /*margin-bottom:10px;*/
    /*left : 500;*/
+}
+
+/*testimonials*/
+.media-body-first{
+    /*font-size: 18px;*/
+    /*color: #51545f;*/
+    color: #777;
+font-size: 14px;
+    /*line-height: 1.625em;*/
+    line-height: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 130px 0px 20px 0px;
+    padding-left: 20px;
+vertical-align: middle;
+padding-right: 40px;
+}
+
+.media-body-second{
+    /*font-size: 18px;*/
+    /*color: #51545f;*/
+    color: #777;
+font-size: 14px;
+    /*line-height: 1.625em;*/
+    line-height: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 150px 0px 20px 0px;
+    padding-left: 20px;
+vertical-align: middle;
+padding-right: 40px;
+}
+
+.img_dir{
+   padding-top:130px;
+}
+.img_dot{
+   padding: 100px 0px 20px 0px;
+   padding-left: 50px;
 }
