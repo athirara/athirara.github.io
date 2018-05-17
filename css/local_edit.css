@@ -89,3 +89,13 @@ padding-right: 40px;
    padding: 100px 0px 20px 0px;
    padding-left: 50px;
 }
+/*for area "we will back in touch" */
+.whole_wrap_touch{
+background-color:#fff;
+/*padding:5px*/
+padding : 20px;
+}
+.section_top_border_touch{
+   padding:70px 0;
+   border-top:1px dotted #eee
+}
