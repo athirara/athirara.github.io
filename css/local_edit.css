@@ -26,19 +26,36 @@ font-size: 20px;
          font-size: 15px;
          /*righ*/
             }
+.contact_us_style6{
+               margin-left: 850px;
+               position: absolute;
+               margin-top : 170px;
+               font-size: 15px;
+            }
+.contact_us_style7{
+                           margin-left: 850px;
+                           position: absolute;
+                           margin-top : 190px;
+                           font-size: 15px;
+                        }
 .contact_us_style4{
    margin-left: 850px;
    position: absolute;
-   margin-top : 200px;
+   margin-top : 240px;
    font-size: 20px;
 }
 .contact_us_style5{
    margin-left: 850px;
    position: absolute;
-   margin-top : 230px;
+   margin-top : 270px;
    font-size: 15px;
 }
-
+/*.contact_us_style6{
+   margin-left: 850px;
+   position: absolute;
+   margin-top : 310px;
+   font-size: 15px;
+}*/
 /*Price section */
 .prices_advisor{
    padding:22px 0 20px 0;
@@ -46,7 +63,7 @@ font-size: 20px;
    /*left : 500;*/
 }
 .prices_enterprise{
-   padding:72px 0 20px 0;
+   padding:34px 0 20px 0;
    /*margin-bottom:10px;*/
    /*left : 500;*/
 }
@@ -98,4 +115,28 @@ padding : 20px;
 .section_top_border_touch{
    padding:70px 0;
    border-top:1px dotted #eee
+}
+.time_enterprise{
+   /*font-size:20px;*/
+   text-align:left;
+   /*margin-top:15px;*/
+   margin-left:10px;
+   font-size:25px;
+   margin-top:10px;
+   color:#222;
+}
+.row_reach_out{
+   /*display:flex;*/
+   /*flex-wrap:wrap;*/
+   /*margin-right:100px;*/
+   /*margin-left:-15px;*/
+   /*
+    flex: 0 0 75%;
+    max-width: 75%;*/
+
+    position: relative;
+/*width: 100%;*/
+min-height: 1px;
+/*padding-right: 200px;*/
+padding-left: 300px;
 }
