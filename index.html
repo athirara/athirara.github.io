@@ -439,20 +439,21 @@
 							<div class="row d-flex justify-content-center">
 									<div class="col-lg-8 col-md-8">
 										<!-- <h3 class="mb-30">Reach out to us</h3> -->
-										<form action="#">
+										<form action="#" id = "foo">
 											<div class="mt-10">
-												<input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input">
+												<input type="text" name="name" id = "name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input">
 											</div>
 											<div class="mt-10">
-												<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
+												<input type="email" name="email" id = "email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
 											</div>
 											<div class="mt-10">
-												<input type="number" name="PHONE_NO" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required class="single-input">
+												<input type="number" name="phone" id = "phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required class="single-input">
 											</div>
 											<div class="mt-10">
 
 												<div class="col-lg-6 about-left">
-											<a class="primary-btn" href="#">Go</a>
+											<button type='submit' class="primary-btn" >Go</button>
+											<!-- <a class="primary-btn" href="#">Go</a> -->
 										</div>
 										</div>
 										</form>
@@ -744,6 +745,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a hr
 			<!-- End footer Area -->
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<!-- call to googlesheet database -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
 			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
@@ -759,5 +762,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a hr
 			<script src="js/mail-script.js"></script>
 			<script src="js/main.js"></script>
 
+		  <!-- Custom Theme JavaScript : call to googlesheet database -->
+		  <script src='google-sheet.js'></script>
 		</body>
 	</html>
